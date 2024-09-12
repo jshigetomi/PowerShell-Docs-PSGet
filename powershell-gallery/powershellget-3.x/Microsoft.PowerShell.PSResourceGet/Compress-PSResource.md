@@ -37,6 +37,56 @@ This example compresses the module **TestModule** and saves te nupkg to the Dest
 Compress-PSResource -Path C:\TestModule -DestinationPath C:\NupkgDestination
 ```
 
+## PARAMETERS
+
+### -Path
+
+Specifies the path of the module you want to compress
+
+```yaml
+Type: System.String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: 0
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DestinationPath
+
+Specifies the destination path of the nupkg file
+
+```yaml
+Type: System.String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -PassThru
+
+Passes the full path of the nupkg file down the pipeline.
+
+```yaml
+Type: System.String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,

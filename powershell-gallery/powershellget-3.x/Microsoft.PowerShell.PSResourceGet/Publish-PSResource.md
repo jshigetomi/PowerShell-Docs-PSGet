@@ -59,6 +59,22 @@ Publish-PSResource -NupkgPath c:\TestModule.nupkg -Repository TestRepository
 
 ## PARAMETERS
 
+### -NupkgPath
+
+Specifies the nupkg path of the module you want to publish
+
+```yaml
+Type: System.String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ApiKey
 
 Specifies the API key that you want to use to publish a resource to the online gallery.
